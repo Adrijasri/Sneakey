@@ -1,0 +1,45 @@
+*
+{
+    
+    font-family: "Open Sans",sans-serif;
+
+   line-height: 1,2;
+}
+
+.food-list-section
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.food-cart
+{
+    display: flex;
+    background-color: #fff8f7;
+    width: 500px;
+    padding:20px;
+    margin:  20px 30px;
+    
+}
+.food-cart:hover{
+background-color: white;
+box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.15);
+}
+.food-cart-image
+{
+    margin:0px 0px;
+    padding-right: 30px;
+}
+
+.food-cart-text h2
+{
+    font-weight: 600px;
+}
+.food-cart-text h2 span
+{
+    color: red;
+}
+.food-cart-text p{
+color: #888;
+}

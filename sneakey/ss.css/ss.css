@@ -1,0 +1,75 @@
+.main-food-section
+  {
+    overflow: hidden;
+  }
+  .food h3{
+    font-family: Josefin Sans;
+    color: red;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin: bottom 10PX; ;
+  }
+  .food h2{
+    font-family: Josefin Sans;
+    color: 2f2d4e;
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: 100px;
+  }
+  .scrollmenu
+  {
+    display: flex;
+    font-family: "Open Sans",sans-serif;
+    overflow-y:scroll;
+    overflow: auto;
+    
+    
+  }
+  .scrollmenu::-webkit-scrollbar{
+    display: none;
+  }
+  .dish
+  {
+    width: 40%;
+    /* border: 2px black solid; */
+    margin:0px 20px;
+
+  }
+  .dish:hover
+  {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .rating
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-food-text
+  {
+    color: grey;
+    line-height: 1.2;
+  }
+  .main-food-text-area
+  {
+    background-color: #fff8f7;
+    /* background-color: #888;; */
+    padding: 20px 20px ;
+  }
+  .main-food-text-area h2{
+    margin: 0px 0px;
+  }
+  .main-food-text-area:hover{
+    background-color: white;
+    
+  }
+  .rating .money{
+    color: #e22104;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .rating .star
+  {
+color:#ffbe0f;
+}
